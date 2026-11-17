@@ -1,0 +1,10 @@
+# we only keep the .gitkeep files so the empty folders are still there
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

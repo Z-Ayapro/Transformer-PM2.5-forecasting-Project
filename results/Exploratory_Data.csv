@@ -1,0 +1,568 @@
+section,variable,metric,value
+cleaning,all,raw_rows,41718
+cleaning,all,raw_columns,15
+cleaning,all,full_row_duplicates_removed,0
+cleaning,all,date_station_duplicates_removed,2
+cleaning,all,date_lat_lon_duplicates,0
+cleaning,all,date_id_duplicates,0
+cleaning,all,pm25_missing_removed,0
+cleaning,all,pm25_le_0_removed,727
+cleaning,all,pm25_ge_500_removed,8
+cleaning,all,clean_rows,40981
+audit,all,date_min,2016-11-25
+audit,all,date_max,2026-04-06
+audit,all,n_stations,91
+audit,all,n_station_ids,95
+audit,all,n_dates,2299
+audit,latitude,min,36.13331699932336
+audit,latitude,max,43.5302972250095
+audit,longitude,min,-5.663499999930786
+audit,longitude,max,9.136389000276088
+audit,sensor_name,records_per_station_min,4
+audit,sensor_name,records_per_station_median,468.0
+audit,sensor_name,records_per_station_max,1042
+records_by_station,sensor_name,CENMO1,1042
+records_by_station,sensor_name,CENCA1,1037
+records_by_station,sensor_name,MOMPEAN,894
+records_by_station,sensor_name,ALBALAT DELS TARONGERS,798
+records_by_station,sensor_name,SAGUNT CEA,797
+records_by_station,sensor_name,CARRANQUE,784
+records_by_station,sensor_name,TORREVIEJA,780
+records_by_station,sensor_name,ALGAR DE PALÀNCIA,771
+records_by_station,sensor_name,BENICASSIM,770
+records_by_station,sensor_name,ALCORA,761
+records_by_station,sensor_name,BURRIANA,757
+records_by_station,sensor_name,MEDITERRÁNEO,742
+records_by_station,sensor_name,ALMASSORA-C. P. OCHANDO,739
+records_by_station,sensor_name,GRANADA - NORTE,734
+records_by_station,sensor_name,ELDA-LACY,727
+records_by_station,sensor_name,VALÈNCIA-POLITÈCNIC,726
+records_by_station,sensor_name,QUART DE POBLET,717
+records_by_station,sensor_name,VALÈNCIA-PISTA DE SILLA,717
+records_by_station,sensor_name,LOS BARRIOS,709
+records_by_station,sensor_name,MADREVIEJA,706
+records_by_station,sensor_name,VALÈNCIA - AVD. FRANCIA,706
+records_by_station,sensor_name,CORTIJILLOS,686
+records_by_station,sensor_name,GUADARRANQUE,682
+records_by_station,sensor_name,Mollet del Vallès,673
+records_by_station,sensor_name,Tarragona,648
+records_by_station,sensor_name,SAN ROQUE (S6),645
+records_by_station,sensor_name,E4:RINCONCILLO,644
+records_by_station,sensor_name,HOSTELERÍA,643
+records_by_station,sensor_name,Vila-seca,638
+records_by_station,sensor_name,Perafort,632
+records_by_station,sensor_name,CAMPANILLAS CIFA,628
+records_by_station,sensor_name,FR02020,625
+records_by_station,sensor_name,CAMPAMENTO,619
+records_by_station,sensor_name,PUENTE MAYORGA,617
+records_by_station,sensor_name,ECONOMATO,614
+records_by_station,sensor_name,LA LÍNEA,607
+records_by_station,sensor_name,SAGUNT PORT,593
+records_by_station,sensor_name,SAN BASILIO,578
+records_by_station,sensor_name,CASTELLÓ-PENYETA,570
+records_by_station,sensor_name,E2: ALCORNOCALES,570
+records_by_station,sensor_name,VALÈNCIA - MOLÍ DEL SOL,561
+records_by_station,sensor_name,E7:EL ZABAL,552
+records_by_station,sensor_name,LA ALJORRA,528
+records_by_station,sensor_name,VILLENA PARQUE FERIA,498
+records_by_station,sensor_name,MOLINA DE SEGURA,489
+records_by_station,sensor_name,VALÈNCIA OLIVERETA,468
+records_by_station,sensor_name,AIX CENTRE ECOLE ART,458
+records_by_station,sensor_name,VALÈNCIA-CENTRE,455
+records_by_station,sensor_name,ONTINYENT,447
+records_by_station,sensor_name,FR02013,445
+records_by_station,sensor_name,VILA-SECA (IES VILA-SECA),442
+records_by_station,sensor_name,Fos Les Carabins,441
+records_by_station,sensor_name,FR03014,426
+records_by_station,sensor_name,Rognac les Brets,399
+records_by_station,sensor_name,PALACIO CONGRESOS,370
+records_by_station,sensor_name,Barcelona - Porta - Can Dragó,364
+records_by_station,sensor_name,VILAMARXANT,346
+records_by_station,sensor_name,RONDA SUR,343
+records_by_station,sensor_name,VALLE DE ESCOMBRERAS,306
+records_by_station,sensor_name,FR03030,283
+records_by_station,sensor_name,Sant Andreu de la Barca,279
+records_by_station,sensor_name,FR03043,269
+records_by_station,sensor_name,ALCANTARILLA,268
+records_by_station,sensor_name,La Sagrera,262
+records_by_station,sensor_name,FR03006,260
+records_by_station,sensor_name,FR03029,253
+records_by_station,sensor_name,Santa Perpètua de Mogoda,238
+records_by_station,sensor_name,Granollers,233
+records_by_station,sensor_name,Passeig de Fabra i Puig,207
+records_by_station,sensor_name,COLEGIO (S1),204
+records_by_station,sensor_name,AIX ROY RENE,198
+records_by_station,sensor_name,ALUMBRES,197
+records_by_station,sensor_name,Armilla Center,184
+records_by_station,sensor_name,VALLE,165
+records_by_station,sensor_name,Polinya,125
+records_by_station,sensor_name,outdoors,102
+records_by_station,sensor_name,TORRENT-EL VEDAT,89
+records_by_station,sensor_name,BARCELONA (PARC DE LA VALL D'HEBRON),62
+records_by_station,sensor_name,Albors - Valencia,57
+records_by_station,sensor_name,"Avinguda Meridiana, Sagerra",52
+records_by_station,sensor_name,Reus,49
+records_by_station,sensor_name,Barcelona,46
+records_by_station,sensor_name,Sant Adrià de Besòs,44
+records_by_station,sensor_name,Terrassa,42
+records_by_station,sensor_name,Martorell,38
+records_by_station,sensor_name,Gibraltar,36
+records_by_station,sensor_name,Viladecavalls ,31
+records_by_station,sensor_name,"C. Restoy, 51, Almeria, Spain",21
+records_by_station,sensor_name,Sant Francesc,15
+records_by_station,sensor_name,Barcelona - Camp d'en Grassot,4
+records_by_station,sensor_name,Rosia Road,4
+summary,pm25,count,40981.0
+summary,pm25,mean,9.457646715933318
+summary,pm25,std,9.72993079606184
+summary,pm25,min,0.0066666666666666
+summary,pm25,25%,4.672727272727273
+summary,pm25,50%,7.85
+summary,pm25,75%,12.086666666666666
+summary,pm25,max,484.9815
+summary,pm25,skewness,17.828808613895664
+summary,pm25,kurtosis,651.6462324806271
+missing,pm25,missing_count,0
+missing,pm25,missing_pct,0.0
+outliers,pm25,iqr_outliers,1613
+outliers,pm25,zscore_gt3,255
+summary,NO2,count,38574.0
+summary,NO2,mean,9.150613248679134e-05
+summary,NO2,std,2.7498525163517867e-05
+summary,NO2,min,2.268400037853421e-05
+summary,NO2,25%,7.511709935890342e-05
+summary,NO2,50%,8.632478460181473e-05
+summary,NO2,75%,0.00010122452095397499
+summary,NO2,max,0.0004831401596448
+summary,NO2,skewness,2.122600424839187
+summary,NO2,kurtosis,9.176965334860874
+missing,NO2,missing_count,2407
+missing,NO2,missing_pct,5.87
+outliers,NO2,iqr_outliers,2061
+outliers,NO2,zscore_gt3,731
+summary,CO,count,38574.0
+summary,CO,mean,0.03157802326215144
+summary,CO,std,0.0038934267274164935
+summary,CO,min,0.0130575448112163
+summary,CO,25%,0.02904011712114235
+summary,CO,50%,0.0314113639754565
+summary,CO,75%,0.0338258021709307
+summary,CO,max,0.0976130890603928
+summary,CO,skewness,1.398304923055133
+summary,CO,kurtosis,13.76872528557131
+missing,CO,missing_count,2407
+missing,CO,missing_pct,5.87
+outliers,CO,iqr_outliers,572
+outliers,CO,zscore_gt3,257
+summary,O3,count,38533.0
+summary,O3,mean,0.14354968829945242
+summary,O3,std,0.014491457445682747
+summary,O3,min,0.1038994989882649
+summary,O3,25%,0.1340191222973674
+summary,O3,50%,0.1404717151800516
+summary,O3,75%,0.1510495800937584
+summary,O3,max,0.229321851252819
+summary,O3,skewness,1.1505085794884804
+summary,O3,kurtosis,2.2778220925065487
+missing,O3,missing_count,2448
+missing,O3,missing_pct,5.97
+outliers,O3,iqr_outliers,1219
+outliers,O3,zscore_gt3,463
+summary,AOD,count,40981.0
+summary,AOD,mean,0.1486890896594357
+summary,AOD,std,0.10613826350024795
+summary,AOD,min,0.0
+summary,AOD,25%,0.08
+summary,AOD,50%,0.128
+summary,AOD,75%,0.194
+summary,AOD,max,5.4750000000000005
+summary,AOD,skewness,7.61155166255753
+summary,AOD,kurtosis,246.85277255493918
+missing,AOD,missing_count,0
+missing,AOD,missing_pct,0.0
+outliers,AOD,iqr_outliers,1114
+outliers,AOD,zscore_gt3,299
+summary,temperature_celsius,count,40981.0
+summary,temperature_celsius,mean,18.271663979363993
+summary,temperature_celsius,std,6.386209008146223
+summary,temperature_celsius,min,-1.2790531158447038
+summary,temperature_celsius,25%,12.965259806315146
+summary,temperature_celsius,50%,18.49334551493331
+summary,temperature_celsius,75%,23.787262852986657
+summary,temperature_celsius,max,34.86583099365237
+summary,temperature_celsius,skewness,-0.10224727245291176
+summary,temperature_celsius,kurtosis,-0.9711708398265388
+missing,temperature_celsius,missing_count,0
+missing,temperature_celsius,missing_pct,0.0
+outliers,temperature_celsius,iqr_outliers,0
+outliers,temperature_celsius,zscore_gt3,4
+summary,pressure_mb,count,40981.0
+summary,pressure_mb,mean,993.8173756520505
+summary,pressure_mb,std,17.180420851071457
+summary,pressure_mb,min,930.3170654296875
+summary,pressure_mb,25%,987.9863655598958
+summary,pressure_mb,50%,997.7314583333332
+summary,pressure_mb,75%,1005.3668212890624
+summary,pressure_mb,max,1033.6621761067709
+summary,pressure_mb,skewness,-1.0868626216379333
+summary,pressure_mb,kurtosis,0.7141712499624813
+missing,pressure_mb,missing_count,0
+missing,pressure_mb,missing_pct,0.0
+outliers,pressure_mb,iqr_outliers,3179
+outliers,pressure_mb,zscore_gt3,72
+summary,wind_u,count,40981.0
+summary,wind_u,mean,0.343480710290262
+summary,wind_u,std,2.5278582962988967
+summary,wind_u,min,-11.09872309366862
+summary,wind_u,25%,-0.9848397572835288
+summary,wind_u,50%,0.2058461507161458
+summary,wind_u,75%,1.684240500132243
+summary,wind_u,max,9.661650975545248
+summary,wind_u,skewness,-0.17782760137375855
+summary,wind_u,kurtosis,1.0340510641065217
+missing,wind_u,missing_count,0
+missing,wind_u,missing_pct,0.0
+outliers,wind_u,iqr_outliers,2133
+outliers,wind_u,zscore_gt3,281
+summary,wind_v,count,40981.0
+summary,wind_v,mean,-0.1787268231018878
+summary,wind_v,std,1.385571019637187
+summary,wind_v,min,-10.860048135121664
+summary,wind_v,25%,-0.7308565378189087
+summary,wind_v,50%,0.0430409908294677
+summary,wind_v,75%,0.6616597572962443
+summary,wind_v,max,8.486382762591044
+summary,wind_v,skewness,-1.276728024381693
+summary,wind_v,kurtosis,4.389128634281141
+missing,wind_v,missing_count,0
+missing,wind_v,missing_pct,0.0
+outliers,wind_v,iqr_outliers,2233
+outliers,wind_v,zscore_gt3,753
+target,pm25,pct_above_25,2.98
+target,pm25,pct_above_50,0.29
+high_correlation,all,n_pairs_abs_r_gt_0.9,0
+corr_by_station,AOD,n_stations,76
+corr_by_station,AOD,spearman_min,-0.1819
+corr_by_station,AOD,spearman_median,0.2007
+corr_by_station,AOD,spearman_max,0.5457
+corr_by_station,NO2,n_stations,76
+corr_by_station,NO2,spearman_min,-0.0084
+corr_by_station,NO2,spearman_median,0.2593
+corr_by_station,NO2,spearman_max,0.5608
+corr_by_station,temperature_celsius,n_stations,76
+corr_by_station,temperature_celsius,spearman_min,-0.4166
+corr_by_station,temperature_celsius,spearman_median,0.1423
+corr_by_station,temperature_celsius,spearman_max,0.5749
+corr_by_station,pressure_mb,n_stations,76
+corr_by_station,pressure_mb,spearman_min,-0.2167
+corr_by_station,pressure_mb,spearman_median,0.17
+corr_by_station,pressure_mb,spearman_max,0.4929
+missing_by_station,NO2,AIX CENTRE ECOLE ART,0.0
+missing_by_station,NO2,AIX ROY RENE,0.0
+missing_by_station,NO2,ALBALAT DELS TARONGERS,19.92
+missing_by_station,NO2,ALCANTARILLA,0.0
+missing_by_station,NO2,ALCORA,20.37
+missing_by_station,NO2,ALGAR DE PALÀNCIA,20.75
+missing_by_station,NO2,ALMASSORA-C. P. OCHANDO,21.11
+missing_by_station,NO2,ALUMBRES,0.0
+missing_by_station,NO2,Albors - Valencia,0.0
+missing_by_station,NO2,Armilla Center,0.0
+missing_by_station,NO2,"Avinguda Meridiana, Sagerra",0.0
+missing_by_station,NO2,BARCELONA (PARC DE LA VALL D'HEBRON),0.0
+missing_by_station,NO2,BENICASSIM,20.65
+missing_by_station,NO2,BURRIANA,19.82
+missing_by_station,NO2,Barcelona,0.0
+missing_by_station,NO2,Barcelona - Camp d'en Grassot,0.0
+missing_by_station,NO2,Barcelona - Porta - Can Dragó,0.0
+missing_by_station,NO2,"C. Restoy, 51, Almeria, Spain",0.0
+missing_by_station,NO2,CAMPAMENTO,0.0
+missing_by_station,NO2,CAMPANILLAS CIFA,0.0
+missing_by_station,NO2,CARRANQUE,0.0
+missing_by_station,NO2,CASTELLÓ-PENYETA,0.0
+missing_by_station,NO2,CENCA1,0.0
+missing_by_station,NO2,CENMO1,0.0
+missing_by_station,NO2,COLEGIO (S1),0.0
+missing_by_station,NO2,CORTIJILLOS,0.0
+missing_by_station,NO2,E2: ALCORNOCALES,0.0
+missing_by_station,NO2,E4:RINCONCILLO,0.0
+missing_by_station,NO2,E7:EL ZABAL,0.0
+missing_by_station,NO2,ECONOMATO,0.0
+missing_by_station,NO2,ELDA-LACY,20.63
+missing_by_station,NO2,FR02013,0.0
+missing_by_station,NO2,FR02020,0.0
+missing_by_station,NO2,FR03006,47.31
+missing_by_station,NO2,FR03014,0.0
+missing_by_station,NO2,FR03029,45.85
+missing_by_station,NO2,FR03030,55.48
+missing_by_station,NO2,FR03043,46.47
+missing_by_station,NO2,Fos Les Carabins,0.0
+missing_by_station,NO2,GRANADA - NORTE,0.0
+missing_by_station,NO2,GUADARRANQUE,0.0
+missing_by_station,NO2,Gibraltar,0.0
+missing_by_station,NO2,Granollers,0.0
+missing_by_station,NO2,HOSTELERÍA,0.0
+missing_by_station,NO2,LA ALJORRA,0.0
+missing_by_station,NO2,LA LÍNEA,0.0
+missing_by_station,NO2,LOS BARRIOS,0.0
+missing_by_station,NO2,La Sagrera,0.0
+missing_by_station,NO2,MADREVIEJA,0.0
+missing_by_station,NO2,MEDITERRÁNEO,0.0
+missing_by_station,NO2,MOLINA DE SEGURA,0.0
+missing_by_station,NO2,MOMPEAN,0.0
+missing_by_station,NO2,Martorell,0.0
+missing_by_station,NO2,Mollet del Vallès,0.0
+missing_by_station,NO2,ONTINYENT,16.78
+missing_by_station,NO2,PALACIO CONGRESOS,0.0
+missing_by_station,NO2,PUENTE MAYORGA,0.0
+missing_by_station,NO2,Passeig de Fabra i Puig,0.0
+missing_by_station,NO2,Perafort,0.0
+missing_by_station,NO2,Polinya,0.0
+missing_by_station,NO2,QUART DE POBLET,21.48
+missing_by_station,NO2,RONDA SUR,0.0
+missing_by_station,NO2,Reus,0.0
+missing_by_station,NO2,Rognac les Brets,0.0
+missing_by_station,NO2,Rosia Road,0.0
+missing_by_station,NO2,SAGUNT CEA,19.82
+missing_by_station,NO2,SAGUNT PORT,0.0
+missing_by_station,NO2,SAN BASILIO,0.0
+missing_by_station,NO2,SAN ROQUE (S6),0.0
+missing_by_station,NO2,Sant Adrià de Besòs,0.0
+missing_by_station,NO2,Sant Andreu de la Barca,0.0
+missing_by_station,NO2,Sant Francesc,0.0
+missing_by_station,NO2,Santa Perpètua de Mogoda,0.0
+missing_by_station,NO2,TORRENT-EL VEDAT,0.0
+missing_by_station,NO2,TORREVIEJA,0.0
+missing_by_station,NO2,Tarragona,0.0
+missing_by_station,NO2,Terrassa,0.0
+missing_by_station,NO2,VALLE,0.0
+missing_by_station,NO2,VALLE DE ESCOMBRERAS,0.0
+missing_by_station,NO2,VALÈNCIA - AVD. FRANCIA,0.57
+missing_by_station,NO2,VALÈNCIA - MOLÍ DEL SOL,17.47
+missing_by_station,NO2,VALÈNCIA OLIVERETA,0.0
+missing_by_station,NO2,VALÈNCIA-CENTRE,0.0
+missing_by_station,NO2,VALÈNCIA-PISTA DE SILLA,21.48
+missing_by_station,NO2,VALÈNCIA-POLITÈCNIC,20.94
+missing_by_station,NO2,VILA-SECA (IES VILA-SECA),0.0
+missing_by_station,NO2,VILAMARXANT,0.58
+missing_by_station,NO2,VILLENA PARQUE FERIA,0.0
+missing_by_station,NO2,Vila-seca,0.0
+missing_by_station,NO2,Viladecavalls ,0.0
+missing_by_station,NO2,outdoors,0.0
+missing_by_month,NO2,month_1,4.19
+missing_by_month,NO2,month_2,3.05
+missing_by_month,NO2,month_3,6.29
+missing_by_month,NO2,month_4,6.87
+missing_by_month,NO2,month_5,6.47
+missing_by_month,NO2,month_6,10.28
+missing_by_month,NO2,month_7,6.62
+missing_by_month,NO2,month_8,0.21
+missing_by_month,NO2,month_9,3.26
+missing_by_month,NO2,month_10,10.94
+missing_by_month,NO2,month_11,6.86
+missing_by_month,NO2,month_12,6.34
+missing_by_station,CO,AIX CENTRE ECOLE ART,0.0
+missing_by_station,CO,AIX ROY RENE,0.0
+missing_by_station,CO,ALBALAT DELS TARONGERS,19.92
+missing_by_station,CO,ALCANTARILLA,0.0
+missing_by_station,CO,ALCORA,20.37
+missing_by_station,CO,ALGAR DE PALÀNCIA,20.75
+missing_by_station,CO,ALMASSORA-C. P. OCHANDO,21.11
+missing_by_station,CO,ALUMBRES,0.0
+missing_by_station,CO,Albors - Valencia,0.0
+missing_by_station,CO,Armilla Center,0.0
+missing_by_station,CO,"Avinguda Meridiana, Sagerra",0.0
+missing_by_station,CO,BARCELONA (PARC DE LA VALL D'HEBRON),0.0
+missing_by_station,CO,BENICASSIM,20.65
+missing_by_station,CO,BURRIANA,19.82
+missing_by_station,CO,Barcelona,0.0
+missing_by_station,CO,Barcelona - Camp d'en Grassot,0.0
+missing_by_station,CO,Barcelona - Porta - Can Dragó,0.0
+missing_by_station,CO,"C. Restoy, 51, Almeria, Spain",0.0
+missing_by_station,CO,CAMPAMENTO,0.0
+missing_by_station,CO,CAMPANILLAS CIFA,0.0
+missing_by_station,CO,CARRANQUE,0.0
+missing_by_station,CO,CASTELLÓ-PENYETA,0.0
+missing_by_station,CO,CENCA1,0.0
+missing_by_station,CO,CENMO1,0.0
+missing_by_station,CO,COLEGIO (S1),0.0
+missing_by_station,CO,CORTIJILLOS,0.0
+missing_by_station,CO,E2: ALCORNOCALES,0.0
+missing_by_station,CO,E4:RINCONCILLO,0.0
+missing_by_station,CO,E7:EL ZABAL,0.0
+missing_by_station,CO,ECONOMATO,0.0
+missing_by_station,CO,ELDA-LACY,20.63
+missing_by_station,CO,FR02013,0.0
+missing_by_station,CO,FR02020,0.0
+missing_by_station,CO,FR03006,47.31
+missing_by_station,CO,FR03014,0.0
+missing_by_station,CO,FR03029,45.85
+missing_by_station,CO,FR03030,55.48
+missing_by_station,CO,FR03043,46.47
+missing_by_station,CO,Fos Les Carabins,0.0
+missing_by_station,CO,GRANADA - NORTE,0.0
+missing_by_station,CO,GUADARRANQUE,0.0
+missing_by_station,CO,Gibraltar,0.0
+missing_by_station,CO,Granollers,0.0
+missing_by_station,CO,HOSTELERÍA,0.0
+missing_by_station,CO,LA ALJORRA,0.0
+missing_by_station,CO,LA LÍNEA,0.0
+missing_by_station,CO,LOS BARRIOS,0.0
+missing_by_station,CO,La Sagrera,0.0
+missing_by_station,CO,MADREVIEJA,0.0
+missing_by_station,CO,MEDITERRÁNEO,0.0
+missing_by_station,CO,MOLINA DE SEGURA,0.0
+missing_by_station,CO,MOMPEAN,0.0
+missing_by_station,CO,Martorell,0.0
+missing_by_station,CO,Mollet del Vallès,0.0
+missing_by_station,CO,ONTINYENT,16.78
+missing_by_station,CO,PALACIO CONGRESOS,0.0
+missing_by_station,CO,PUENTE MAYORGA,0.0
+missing_by_station,CO,Passeig de Fabra i Puig,0.0
+missing_by_station,CO,Perafort,0.0
+missing_by_station,CO,Polinya,0.0
+missing_by_station,CO,QUART DE POBLET,21.48
+missing_by_station,CO,RONDA SUR,0.0
+missing_by_station,CO,Reus,0.0
+missing_by_station,CO,Rognac les Brets,0.0
+missing_by_station,CO,Rosia Road,0.0
+missing_by_station,CO,SAGUNT CEA,19.82
+missing_by_station,CO,SAGUNT PORT,0.0
+missing_by_station,CO,SAN BASILIO,0.0
+missing_by_station,CO,SAN ROQUE (S6),0.0
+missing_by_station,CO,Sant Adrià de Besòs,0.0
+missing_by_station,CO,Sant Andreu de la Barca,0.0
+missing_by_station,CO,Sant Francesc,0.0
+missing_by_station,CO,Santa Perpètua de Mogoda,0.0
+missing_by_station,CO,TORRENT-EL VEDAT,0.0
+missing_by_station,CO,TORREVIEJA,0.0
+missing_by_station,CO,Tarragona,0.0
+missing_by_station,CO,Terrassa,0.0
+missing_by_station,CO,VALLE,0.0
+missing_by_station,CO,VALLE DE ESCOMBRERAS,0.0
+missing_by_station,CO,VALÈNCIA - AVD. FRANCIA,0.57
+missing_by_station,CO,VALÈNCIA - MOLÍ DEL SOL,17.47
+missing_by_station,CO,VALÈNCIA OLIVERETA,0.0
+missing_by_station,CO,VALÈNCIA-CENTRE,0.0
+missing_by_station,CO,VALÈNCIA-PISTA DE SILLA,21.48
+missing_by_station,CO,VALÈNCIA-POLITÈCNIC,20.94
+missing_by_station,CO,VILA-SECA (IES VILA-SECA),0.0
+missing_by_station,CO,VILAMARXANT,0.58
+missing_by_station,CO,VILLENA PARQUE FERIA,0.0
+missing_by_station,CO,Vila-seca,0.0
+missing_by_station,CO,Viladecavalls ,0.0
+missing_by_station,CO,outdoors,0.0
+missing_by_month,CO,month_1,4.19
+missing_by_month,CO,month_2,3.05
+missing_by_month,CO,month_3,6.29
+missing_by_month,CO,month_4,6.87
+missing_by_month,CO,month_5,6.47
+missing_by_month,CO,month_6,10.28
+missing_by_month,CO,month_7,6.62
+missing_by_month,CO,month_8,0.21
+missing_by_month,CO,month_9,3.26
+missing_by_month,CO,month_10,10.94
+missing_by_month,CO,month_11,6.86
+missing_by_month,CO,month_12,6.34
+missing_by_station,O3,AIX CENTRE ECOLE ART,0.0
+missing_by_station,O3,AIX ROY RENE,0.0
+missing_by_station,O3,ALBALAT DELS TARONGERS,20.05
+missing_by_station,O3,ALCANTARILLA,0.0
+missing_by_station,O3,ALCORA,20.76
+missing_by_station,O3,ALGAR DE PALÀNCIA,21.01
+missing_by_station,O3,ALMASSORA-C. P. OCHANDO,21.38
+missing_by_station,O3,ALUMBRES,0.0
+missing_by_station,O3,Albors - Valencia,0.0
+missing_by_station,O3,Armilla Center,0.0
+missing_by_station,O3,"Avinguda Meridiana, Sagerra",0.0
+missing_by_station,O3,BARCELONA (PARC DE LA VALL D'HEBRON),0.0
+missing_by_station,O3,BENICASSIM,21.04
+missing_by_station,O3,BURRIANA,20.21
+missing_by_station,O3,Barcelona,0.0
+missing_by_station,O3,Barcelona - Camp d'en Grassot,0.0
+missing_by_station,O3,Barcelona - Porta - Can Dragó,0.0
+missing_by_station,O3,"C. Restoy, 51, Almeria, Spain",0.0
+missing_by_station,O3,CAMPAMENTO,0.0
+missing_by_station,O3,CAMPANILLAS CIFA,0.0
+missing_by_station,O3,CARRANQUE,0.0
+missing_by_station,O3,CASTELLÓ-PENYETA,0.0
+missing_by_station,O3,CENCA1,0.0
+missing_by_station,O3,CENMO1,0.0
+missing_by_station,O3,COLEGIO (S1),0.0
+missing_by_station,O3,CORTIJILLOS,0.0
+missing_by_station,O3,E2: ALCORNOCALES,0.0
+missing_by_station,O3,E4:RINCONCILLO,0.0
+missing_by_station,O3,E7:EL ZABAL,0.0
+missing_by_station,O3,ECONOMATO,0.0
+missing_by_station,O3,ELDA-LACY,21.05
+missing_by_station,O3,FR02013,0.0
+missing_by_station,O3,FR02020,0.0
+missing_by_station,O3,FR03006,47.69
+missing_by_station,O3,FR03014,0.0
+missing_by_station,O3,FR03029,46.64
+missing_by_station,O3,FR03030,56.18
+missing_by_station,O3,FR03043,47.21
+missing_by_station,O3,Fos Les Carabins,0.0
+missing_by_station,O3,GRANADA - NORTE,0.0
+missing_by_station,O3,GUADARRANQUE,0.0
+missing_by_station,O3,Gibraltar,0.0
+missing_by_station,O3,Granollers,0.0
+missing_by_station,O3,HOSTELERÍA,0.0
+missing_by_station,O3,LA ALJORRA,0.0
+missing_by_station,O3,LA LÍNEA,0.0
+missing_by_station,O3,LOS BARRIOS,0.0
+missing_by_station,O3,La Sagrera,0.0
+missing_by_station,O3,MADREVIEJA,0.0
+missing_by_station,O3,MEDITERRÁNEO,0.0
+missing_by_station,O3,MOLINA DE SEGURA,0.0
+missing_by_station,O3,MOMPEAN,0.0
+missing_by_station,O3,Martorell,0.0
+missing_by_station,O3,Mollet del Vallès,0.0
+missing_by_station,O3,ONTINYENT,17.23
+missing_by_station,O3,PALACIO CONGRESOS,0.0
+missing_by_station,O3,PUENTE MAYORGA,0.0
+missing_by_station,O3,Passeig de Fabra i Puig,0.0
+missing_by_station,O3,Perafort,0.0
+missing_by_station,O3,Polinya,0.0
+missing_by_station,O3,QUART DE POBLET,21.9
+missing_by_station,O3,RONDA SUR,0.0
+missing_by_station,O3,Reus,0.0
+missing_by_station,O3,Rognac les Brets,0.0
+missing_by_station,O3,Rosia Road,0.0
+missing_by_station,O3,SAGUNT CEA,20.2
+missing_by_station,O3,SAGUNT PORT,0.0
+missing_by_station,O3,SAN BASILIO,0.0
+missing_by_station,O3,SAN ROQUE (S6),0.0
+missing_by_station,O3,Sant Adrià de Besòs,0.0
+missing_by_station,O3,Sant Andreu de la Barca,0.0
+missing_by_station,O3,Sant Francesc,0.0
+missing_by_station,O3,Santa Perpètua de Mogoda,0.0
+missing_by_station,O3,TORRENT-EL VEDAT,0.0
+missing_by_station,O3,TORREVIEJA,0.0
+missing_by_station,O3,Tarragona,0.0
+missing_by_station,O3,Terrassa,0.0
+missing_by_station,O3,VALLE,0.0
+missing_by_station,O3,VALLE DE ESCOMBRERAS,0.0
+missing_by_station,O3,VALÈNCIA - AVD. FRANCIA,0.99
+missing_by_station,O3,VALÈNCIA - MOLÍ DEL SOL,17.47
+missing_by_station,O3,VALÈNCIA OLIVERETA,0.0
+missing_by_station,O3,VALÈNCIA-CENTRE,0.0
+missing_by_station,O3,VALÈNCIA-PISTA DE SILLA,21.9
+missing_by_station,O3,VALÈNCIA-POLITÈCNIC,21.35
+missing_by_station,O3,VILA-SECA (IES VILA-SECA),0.0
+missing_by_station,O3,VILAMARXANT,0.58
+missing_by_station,O3,VILLENA PARQUE FERIA,0.0
+missing_by_station,O3,Vila-seca,0.0
+missing_by_station,O3,Viladecavalls ,0.0
+missing_by_station,O3,outdoors,0.0
+missing_by_month,O3,month_1,4.19
+missing_by_month,O3,month_2,3.05
+missing_by_month,O3,month_3,6.29
+missing_by_month,O3,month_4,6.87
+missing_by_month,O3,month_5,6.47
+missing_by_month,O3,month_6,10.28
+missing_by_month,O3,month_7,6.62
+missing_by_month,O3,month_8,0.21
+missing_by_month,O3,month_9,4.4
+missing_by_month,O3,month_10,10.94
+missing_by_month,O3,month_11,6.86
+missing_by_month,O3,month_12,6.34

@@ -1,0 +1,12 @@
+# we used Python 3.14
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.8.0
+scipy==1.17.1
+statsmodels==0.14.6
+matplotlib==3.11.2
+seaborn==0.13.2
+# for the notebooks
+ipykernel==7.4.0
+nbconvert==7.17.1
+notebook==7.6.3
