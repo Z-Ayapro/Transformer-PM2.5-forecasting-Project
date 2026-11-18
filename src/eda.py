@@ -269,6 +269,8 @@ def run_eda(df, log=None):
     fig, axes = plt.subplots(1, 2, figsize=(15, 5))
     sns.histplot(df[config.TARGET_COL], bins=50, ax=axes[0], color='steelblue')
     axes[0].set_title('PM2.5 (raw)')
+    # WHO thresholds: 15 = 2021 daily guideline, 25 = interim target 4, 50 = interim target 2
+    axes[0].axvline(15, color='red', linestyle='--', label='15 ug/m3')
     axes[0].axvline(25, color='red', linestyle='--', label='25 ug/m3')
     axes[0].axvline(50, color='red', linestyle='--', label='50 ug/m3')
     axes[0].legend()
